@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable max-classes-per-file */
 /* eslint-disable react/prefer-stateless-function */
@@ -74,6 +75,7 @@ export default class Sugerencias extends React.Component {
               image={link}
               username={usernames[index]}
               name={namesS[index]}
+              key={index}
             />
           ))}
         </div>

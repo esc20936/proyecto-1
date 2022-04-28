@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable max-classes-per-file */
 /* eslint-disable react/prefer-stateless-function */
@@ -48,7 +50,7 @@ export default class Historias extends React.Component {
 
     return (
       <div className="historiasContainer">
-        {imgs.map((link, index) => <Historia image={link} username={usernames[index]} />)}
+        {imgs.map((link, index) => <Historia key={index} image={link} username={usernames[index]} />)}
       </div>
     );
   }

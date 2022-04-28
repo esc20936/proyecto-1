@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React from "react";
@@ -22,7 +23,7 @@ export default class PantallaPrincipal extends React.Component {
   render() {
     for (let i = 30; i < 50; i += 1) {
       imgs.push(`https://picsum.photos/200/300?random=${i + 1}`);
-      posts.push(`https://picsum.photos/200/300?random=${i + 31}`);
+      posts.push(`https://picsum.photos/614/650?random=${i + 31}`);
       usernames.push(createAuthor());
     }
     return (
@@ -31,7 +32,7 @@ export default class PantallaPrincipal extends React.Component {
         <div className="mainContentContainer">
           <div className="principal">
             <Historias />
-            {imgs.map((link, index) => <Post image={link} username={usernames[index]} postimg={posts[index]} />)}
+            {imgs.map((link, index) => <Post key={index} image={link} username={usernames[index]} postimg={posts[index]} />)}
           </div>
           <div className="sugerencias">
             <Sugerencias />
