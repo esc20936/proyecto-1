@@ -10,7 +10,7 @@ class Sugerencia extends React.Component {
   render() {
     return (
       <div className="profileSection sugerencias">
-        <div className="imageContainer">
+        <div className="imageContainer sug">
           <img src={this.props.image} alt="logoInstagram" className="profilePicture" />
         </div>
         <div className="usernameContainer">

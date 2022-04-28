@@ -95,7 +95,11 @@
 
 .sugerencias{
     width: 400px;
-    height : 80px;
+    height : 60px;
+}
+.sug{
+    height: 45px;
+    width: 45px;
 }
 .cambiarContainer{
     margin-left: auto;
