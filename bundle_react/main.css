@@ -143,12 +143,13 @@ body{
     cursor: pointer;
 }
 .historiaContainer{
-    width: 66px;
+    width: 90px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    margin: 15px;
+    text-overflow: ellipsis;
+    margin: 5px;
 }
 .image{
     width: 56px;
@@ -175,6 +176,7 @@ body{
 }
 .username{
     color: #333333;
+    width: 100%;
     font-size: 12px;
     line-height: 16px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
@@ -188,6 +190,111 @@ body{
 
 
 
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/componentes/Sugerencias.css ***!
+  \***********************************************************************************/
+.SugerenciasContainer{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.profileSection{
+    height: 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: row;
+}
+.imageContainer{
+    border-radius:50px;
+    width:60px;
+    height:60px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profilePicture{
+    width:100%;
+    height:100%;
+}
+
+.usernameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    width: auto;
+}
+
+.usernameS{
+    font-size: 14px;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.nameS{
+    margin-top: 3px;
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.cambiarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.cambiarTexto{
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+
+.titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.titulo1{
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.vertodo{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+
+.sugerencias{
+    width: 400px;
+    height : 80px;
+}
+.cambiarContainer{
+    margin-left: auto;
+}
 /*!*****************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/componentes/PantallaPrincipal.css ***!
   \*****************************************************************************************/
@@ -206,5 +313,12 @@ body{
     margin-top:10px;
     width: 920px;
     height: 100%;
+    display: flex;
     flex: 1;
+    flex-direction: row;
+
+}
+
+.sugerencias{
+    width:293px;
 }

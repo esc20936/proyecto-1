@@ -13,5 +13,12 @@
     margin-top:10px;
     width: 920px;
     height: 100%;
+    display: flex;
     flex: 1;
+    flex-direction: row;
+
+}
+
+.sugerencias{
+    width:293px;
 }
