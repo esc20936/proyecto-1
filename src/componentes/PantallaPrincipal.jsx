@@ -1,6 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from "react";
 import Barra from "./Barra";
+import Historias from "./Historias";
 import "./PantallaPrincipal.css";
 
 export default class PantallaPrincipal extends React.Component {
@@ -8,6 +9,9 @@ export default class PantallaPrincipal extends React.Component {
     return (
       <div className="container">
         <Barra />
+        <div className="mainContentContainer">
+          <Historias />
+        </div>
       </div>
     );
   }

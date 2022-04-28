@@ -1,0 +1,70 @@
+.historiasContainer{
+    margin:10px;
+    width: 614px;
+    height: 135px;
+    background-color: #FFF;
+    border-radius:3px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.imageContainerBorder{
+    border-radius: 45px;
+    width: 66px;
+    height: 66px;
+    background:linear-gradient(45deg, orange,#8e0f9f );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historiaContainer:hover{
+    cursor: pointer;
+}
+.historiaContainer{
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 15px;
+}
+.image{
+    width: 56px;
+    height: 56px;
+    border-radius: 45px;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+.profileImg{
+    width:100%;
+    height: 100%;
+    object-fit:fill;
+}
+.usernameContainer{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items:center;
+    
+}
+.username{
+    color: #333333;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+
+
+
