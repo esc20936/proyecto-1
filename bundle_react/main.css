@@ -2,15 +2,128 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
   \*****************************************************************/
 html{
-    min-height:100%;
+    min-height:100vh;
 }
 body{
-    background-color: rgb(42, 83, 218);
+    background-color: #fafafa;
     color:white;
     min-height:100vh;
     display: flex;
     flex: 1;
     justify-content: center;
     align-items: flex-start;
+    margin: 0;
+    padding: 0;
 
 }
+#root{
+    min-height:100vh;
+    width: 100%;
+}
+
+/*!*****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/componentes/Barra.css ***!
+  \*****************************************************************************/
+.barContainer{
+    width:100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content:center;
+    border-bottom: 1px  solid #c2c2c2;
+}
+
+.mainContainer{
+    width: 975px;
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.logoContainer{
+    margin-top:7px;
+    width: 103px;
+    height: 29px;
+}
+
+.logoContainer:hover {
+    opacity: 0.5;
+}
+
+.logo{
+    width: 103px;
+    height: 29px;
+}
+
+.searchBar{
+    width: 268px;
+    height: 40px;
+    background-color: #EFEFEF;
+    border-radius:8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.clase1{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+
+.clase2{
+    border: 0;
+    padding: 3px 16px;
+}
+
+.clase3{
+    background: rgba(var(--bb2,239,239,239),1);
+    font-size: 16px;
+}
+
+.searchIcon{
+    margin-top:7px;
+    margin-left: 5px;
+}
+
+.iconsContainer{
+    width: 278px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icono:hover{
+    opacity: 0.5;
+}
+.icono{
+    margin-top:7px;
+    width: 30px;
+    height: 30px;
+}
+
+.profilePhoto{
+    border-radius:25px;
+    overflow: hidden;
+}
+
+.profileImg{
+    width:100%;
+    height:100%;
+}
+/*!*****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/componentes/PantallaPrincipal.css ***!
+  \*****************************************************************************************/
+.container{
+    background-color: #fafafa;
+    min-height:100vh;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+

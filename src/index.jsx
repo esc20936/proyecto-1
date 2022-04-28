@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Prueba from "./componentes/Prueba";
+import PantallaPrincipal from "./componentes/PantallaPrincipal";
 
-ReactDOM.render(<Prueba />, document.getElementById("root"));
+ReactDOM.render(<PantallaPrincipal />, document.getElementById("root"));

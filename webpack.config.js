@@ -35,10 +35,8 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif|mp4)$/i,
+        exclude: /(node_modules)/,
         loader: "file-loader",
-        options: {
-          outputPath: "images",
-        },
       },
     ],
   },
