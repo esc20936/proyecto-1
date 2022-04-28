@@ -1,0 +1,195 @@
+.PostContainer{
+    margin: 10px;
+    width: 614px;
+    background-color:red;
+    height:950px;
+}
+
+.postHeader{
+    width: 100%;
+    height: 70px;
+    background-color:#fff;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postProfileImageContainer{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    overflow:hidden;
+    margin-left: 20px;
+
+}
+
+.profileImage{
+    width:100%;
+    height:100%;
+
+}
+
+.postUser{
+    height:50px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.usernameP{
+    font-size: 14px;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.postImage{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+
+
+}
+
+.postImg{
+    width: 100%;
+    height: 100%;
+}
+
+.interactionContainer{
+    background-color:#fff;
+    height: 54px;
+    width: 100%;
+    border-left: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+    display: flex;
+
+}
+.reaccion{
+    width: 35px;
+    height: 35px;
+    margin-left: 16px;
+}
+
+.ic2{
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+    margin-bottom: 3px;
+}
+
+.ic3{
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+}
+
+.ic4{
+    margin-left: auto;
+    margin-right:16px;
+}
+.commentSection{
+    background-color: #fff;
+    height:180px;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-left: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+    width: 100%;
+    overflow: hidden;
+}
+.ammountLikes{
+    margin-left:16px;
+}
+
+.ammount{
+    font-size: 18px;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+
+.postDescription{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.pd{
+    font-size:16px;
+    margin-right: 10px;
+}
+.options{
+    margin-left:auto;
+    font-size: 30px;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-right: 10px;
+    margin-bottom:20px;
+}
+.dd{
+    font-size: 14px;
+    color: #8e8e8e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.time{
+    font-size: 14px;
+    color: #222222;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+
+.comentar{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid rgba(var(--b6a,219,219,219),0.5);
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top:5px;
+}
+
+.clase1a{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    background-color:#fff;
+}
+
+.clase2a{
+    border: 0;
+    padding: 3px 16px;
+}
+
+.clase3a{
+    background-color:#fff;
+    font-size: 16px;
+}
+
+.searchIcona{
+    margin-left: 16px;
+}
