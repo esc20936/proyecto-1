@@ -20,3 +20,7 @@ Este proyecto es útil debido a que nos ayuda a poder empezar a familiarizarnos 
 ## Ayuda con el proyecto
 
 Si existiece alguna duda o comentario adjunto mi correo: pablo.pees@gmail.com
+
+## Screenshots
+
+![App Screenshot](/screenshots/captura.png)
