@@ -17,9 +17,7 @@ Dentro de la carpeta SRC, existe una subcarpeta (Componentes) , en donde se encu
 ## Por qué el proyecto es útil
 
 Este proyecto es útil debido a que nos ayuda a poder empezar a familiarizarnos con la libreria de React.js, la cual es muy utilizada hoy en día.
-## Ayuda con el proyecto
 
-Si existiece alguna duda o comentario adjunto mi correo: pablo.pees@gmail.com
 
 ## Screenshots
 
